@@ -10,7 +10,7 @@ class HelloController extends Controller
     //index
     public function index(){
         dunp("01");
-        dunp("07");
+        dunp("06");
         return view('welcome',['msg'=>'']);
     }
 }
